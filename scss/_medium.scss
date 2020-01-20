@@ -1,5 +1,18 @@
-@media only screen and (min-width: 560px) {
+/* ------------------------ MAIN ----------------------------- */
+main{
+    figure.photo {
+        // left and right margin is 2%. Margin adds space to existing width of 100% i.e. 104%
+        // hence deducting 4% from 100%
+        width:50%-$gutterDouble; 
+        margin: .5rem $gutter; 
+        float: left;
+        border: red 1px solid;
+    
+        
+        
+    }
+}
 
-h1{color: green;}
 
-} /* end media query */
+
+

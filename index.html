@@ -9,22 +9,102 @@
 <title>Title</title>
 
  <!-- The order is important -->
-<link href="css/reset.css" rel="stylesheet">
-<link href="css/small-default.css" rel="stylesheet">
-<link href="css/medium.css" rel="stylesheet">
-<link href="css/large.css" rel="stylesheet">
+ <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+ <link href="https://fonts.googleapis.com/css?family=Lato:300,700&display=swap" rel="stylesheet">
+ <link href="css/styles.css" rel="stylesheet">
+
+
 
 </head>
 <body>
-    <h1>Title of the page</h1>
+    <div id="wrapper">
+        <!--PAGE HEADER FOR LOGO -->
+        <header class="clearfix">
+            <div class="hisabLogo">
+                <h1>Hisab</h1>
+                <h2>manage your trip expense with ease</h2>
+            </div>
+            
+           
+            <form>
+                <input>
+            </form>
+        </header>
+         
+        <!--PAGE NAVIGATION -->
+        <nav class="clearfix">
+            <ul>
+                <li class="active"><a href="#">Features</a></li>
+                <li><a href="#">Pricing</a></li>
+                <li><a href="#">Contact</a></li>
+                <li><a href="#">Login</a></li>
+            </ul>
+        </nav>
 
-    <p>
-        The fundamental purpose of this Transport Asset Management Plan (TAMP) is to improve Council’s long-term strategic management of its transport 
-        assets in order to cater for the community’s required levels of service in the future as detailed under Section 3. The plan defines the state of 
-        Council’s infrastructure assets at the close of the past financial year, the 10-year funding required to achieve Council’s adopted asset performance 
-        targets and planned asset management activities over a 10-year planning period.
-    </p>
+         <!--PAGE MAIN CONTENT -->
+        <main class="clearfix">
+            <figure class="banner">
+                <img src="images/banner01.jpg" alt="banner">
+            </figure>
 
+
+            <h1>Main Content</h1>
+            <hr class="fadeAway">
+            
+            <figure class="photo">
+                    <img src="images/black.jpg" >
+                    <figcaption>Expensive car</figcaption>
+                </figure>
+
+                <figure class="photo">
+                    <img src="images/silver.jpg" >
+                    <figcaption>Expensive car</figcaption>
+                </figure>
+
+                <figure class="photo">
+                    <img src="images/blue.jpg" >
+                    <figcaption>Expensive car</figcaption>
+                </figure>
+
+                <figure class="photo">
+                    <img src="images/red.jpg" >
+                    <figcaption>Expensive car</figcaption>
+                </figure>
+
+            
+                    <!-- Example of responsive grid using bootstrap -->
+                    <div class="container-fluid">
+                        <div class="row">
+                            <div class="col-sm-12  col-md-6 col-lg-3 bg-success">
+                            Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.<br>
+                            Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+                            </div>
+                            <div class="col-sm-12 col-md-6 col-lg-3 bg-warning">
+                            Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo.
+                            </div>
+                            <div class="col-sm-12 col-md-6 col-lg-3 bg-success">
+                                Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo.
+                            </div>
+                            <div class="col-sm-12 col-md-6 col-lg-3 bg-warning">
+                                Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo.
+                            </div>
+                        </div>
+                    </div>
+                    
+            
+        </main>
+    
+         <!--PAGE FOOTER -->
+        <footer>
+            <p>Copyright Hisab</p>
+        </footer>
+
+       
+        <!--Bootstrap js-->
+        <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" ></script>
+        <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+    </div>
 </body>
 </html>
 

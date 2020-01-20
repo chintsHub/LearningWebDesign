@@ -1,7 +1,28 @@
+/* ------------------------ Body ----------------------------- */
+div#wrapper {
+    max-width: 80rem;
+    margin: 2rem auto; // auto means centre on the page
+    box-shadow: 0 0 10px #000000;
+}
 
 
-@media only screen and (min-width: 1140px) {
-
-    h1{color: orange;}
+/* ------------------------ MAIN ----------------------------- */
+main{
+    figure.photo {
+        // left and right margin is 2%. Margin adds space to existing width of 100% i.e. 104%
+        // hence deducting 4% from 100%
+        width:25%-$gutterDouble; 
+        margin: .5rem $gutter; 
+        float: left;
+        border: red 1px solid;
     
-    } /* end media query */
+        
+        
+    }
+
+
+}
+
+
+
+
